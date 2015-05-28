@@ -1,0 +1,19 @@
+{
+  "uuid": "0f8de987-2a08-470d-bfbb-a0b17f74c849",
+  "shortName": "Tutorial1",
+  "longName": "Tutorial1",
+  "companyName": "MarcoIsaacWatchFace",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
