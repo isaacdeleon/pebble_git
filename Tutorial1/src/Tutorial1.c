@@ -97,7 +97,8 @@ static void update_time(){
 	
 	//create a long lived buffer
 	static char buffer[] = "00:00";
-	static char bufferDate[] = "00:00:00";
+	//static char bufferDate[] = "00:00:00";
+	static char bufferDate[32];
 	
 	//write curretn hours and minutes into buffer
 	if(clock_is_24h_style() == true){
@@ -154,7 +155,6 @@ static void deinit(){
 
 int main(void){
 	init();
-	
 	//registerthick timer
 	tick_timer_service_subscribe(MINUTE_UNIT,tick_handler);
 	//update_time();
